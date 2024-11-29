@@ -1,0 +1,304 @@
+*{
+    margin:0;
+    padding: 0;
+    position:relative;
+}
+
+.persona {
+    margin:0 auto;
+    width: 1000px;
+    height: 1450px;
+    padding-top: 100px;
+}
+
+.cap{
+    padding-top: 70px;
+    top: -1035px;
+}
+
+.cara{
+    width: 600px;
+    height: 720px;
+    background: #ffdbc5;
+    border-radius: 0px 200px 300px 300px;
+    margin: 0 auto;
+    ox-shadow: inset -60px 5px 60px #d1b39d;
+}
+
+.cabell {
+    width: 1000px;
+    height: 1050px;
+    background: black;
+    border-radius: 400px 400px 50px 50px;
+    padding-top: 100px;
+    margin: 0 auto;
+    z-index: -30;
+}
+
+.serrell {
+    width: 500px;
+    height: 210px;
+    background-color: black;
+    border-radius: 60px 20px 0px 100px;
+    top: -49px;
+    left: -150px;
+    transform: rotate(-35deg);
+    ox-shadow: -50px -5px 100px black;
+}
+
+.front {
+    height: 70px;
+    width: 750px;
+}
+
+.celles {
+    height: 150px;
+    text-align:center;
+    z-index: 5;
+}
+
+.celles:hover {
+    bottom: 20px;
+}
+
+.cellaEsq {
+    height: 100px;
+    width: 200px;
+    background: transparent;
+    box-shadow: inset 4px 17px black;
+    border-radius: 70%;
+    left: -78px;
+    top: 20px;
+    display: inline-block;
+    margin: 10px 45px;
+    overflow: hidden;
+    transition: top 2s;
+}
+
+
+.cellaDre{
+    height: 100px;
+    width: 200px;
+    background: transparent;
+    box-shadow: inset -4px 17px black;
+    border-radius: 70%;
+    left: -78px;
+    top: 20px;
+    display: inline-block;
+    margin: 10px 45px;
+    overflow: hidden;  
+}
+
+.mirada {
+    height: 70px;
+    text-align: center;
+}
+
+.tapaEsq {
+    background: #ffdbc5; 
+}
+
+.tapaEsq .tapaAdalt {
+    position: absolute;
+    background-color: transparent;
+    z-index: 2;
+    height: 125px;
+    width: 170px;
+    box-shadow: inset 0 50px #ffdbc5;
+    border-radius: 30%;
+    top: 9px;
+    left: 65px;
+    transform: translateY(-60px);
+    animation: tapaAdalt 8s ease-in-out infinite;
+}
+
+.tapaEsq .tapaAbaix {
+    position: absolute;
+    height: 120px;
+    width: 170px;
+    box-shadow: inset 0 50px #ffdbc5;
+    border-radius: 30%;
+    z-index: 2;
+    top: -10px;
+    left: 65px;
+    transform: rotate(180deg) translateY(-60px);
+    animation: tapaAbaix 8s ease-in-out infinite;
+}
+
+@keyframes tapaAdalt{
+    0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84%{
+        transform: translateY(-60px);
+    }
+    14%, 30%, 52%, 80%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes tapaAbaix{
+    0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84% {
+        transform: rotate(180deg) translateY(-60px);
+    }
+    14%, 30%, 52%, 80% {
+        transform: rotate(180deg) translateY(0);
+    }
+}
+
+.tapaDre {
+    background: #ffdbc5;
+    left: 290px; 
+}
+
+.tapaDre .tapaAdalt {
+    position: absolute;
+    background-color: transparent;
+    z-index: 2;
+    height: 125px;
+    width: 170px;
+    box-shadow: inset 0 50px #ffdbc5;
+    border-radius: 30%;
+    top: 9px;
+    left: 65px;
+    transform: translateY(-60px);
+    animation: tapaAdalt 8s ease-in-out infinite;
+}
+
+.tapaDre .tapaAbaix {
+    position: absolute;
+    height: 120px;
+    width: 170px;
+    box-shadow: inset 0 50px #ffdbc5;
+    border-radius: 30%;
+    z-index: 2;
+    top: -10px;
+    left: 65px;
+    transform: rotate(180deg) translateY(-60px);
+    animation: tapaAbaix 8s ease-in-out infinite;
+}
+
+.mirada .ull{
+    height: 100px;
+    width: 150px;
+    background: white;
+    box-shadow: inset 0 14px #c49980;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 70px;
+    overflow: hidden;
+    animation: mirada ull 6s ease-in-out infinite;
+}
+
+
+.mirada .ull .pupila {
+    height: 45px;
+    width: 45px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 0 24px rgb(88, 49, 49);
+    top: 37px;
+}
+
+.mirada .llum{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+    top: -15px;
+    left: 14px;
+}
+
+.nas {
+    width: 47px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 40px;
+    background: #eeb99a;
+    top: 5px;
+    box-shadow: 20px 5px 30px #e2c0ab;
+}
+
+.galtes {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.galta1 {
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ffab9f;
+    box-shadow: 0px 0px 25px #ffab9f;
+    left: -70px;
+}
+
+.galta2 {
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ffab9f;
+    box-shadow: 0px 0px 25px #ffab9f;
+    left: 280px;
+    top: -45px;
+}
+
+.orella{
+    width: 600px;
+    height: 25px;
+}
+
+.orella .orellaEsq{
+    width: 150px;
+    height: 150px;
+    clip-path:circle(50% at 100% 50%);
+    background: #f6cfb7;
+    left:-135px;
+    top: -55px;
+    z-index: -8;
+}
+
+.boca {
+    height: 70px;
+    width: 200px;
+    background-color: black;
+    margin: 0 auto;
+    top: 30px;
+    border-radius: 10px 10px 110px 110px;
+    overflow: hidden;
+}
+
+.boca .llengua {
+    width: 130px;
+    height: 50px;
+    background: #fb828c;
+    box-shadow: inset -3
+    0px 5px 40px #e7616c;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: 30px;
+    left: 34px;
+}
+
+.coll {
+    width: 170px;
+    height: 130px;
+    background: #e6c1ab;
+    margin: 0 auto;
+    top: -40px;
+    border-radius: 20px 20px 50px 50px;
+    z-index: -8;
+}
+
+.cos {
+    width: 800px;
+    height: 300px;
+    background-image: radial-gradient(#c30010, #6d0009);
+    margin: 0 auto;
+    top:-100px;
+    border-radius: 400px 400px 50px 50px;
+    position: relative;
+    z-index: -10;
+}
